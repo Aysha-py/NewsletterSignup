@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+     background-color: hsl(235, 18%, 26%);
+}
+
+main{
+  margin: 30px auto;
+
+}
+.NewsLettter-Container{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    margin: auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 30px;
+    
+}
+.stay-updated{
+    width: 50%;
+    margin: 50px 0px 0px 40px;
+}
+
+.stay-updated-picture{
+    background-image: url("assets/images/illustration-sign-up-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; 
+    width: 50%;
+}
+.stay-updated-text, .stay-updated-title, .stay-updated-list,.stay-updated-Email{
+    margin: 30px 0;
+}
+.stay-updated-list ul{
+    list-style: none;
+}
+
+.stay-updated-list li{
+    margin:15px 0;
+    display: flex;
+    align-items: center; 
+    
+}
+.stay-updated-list li img{
+margin-right: 20px;
+}
+form input, form button{
+  margin-top: 20px; 
+   border-radius: 10px;
+   width: 80%;
+}
+form input{
+    border: 1px solid  hsl(231, 7%, 60%); 
+       padding: 1.25rem;
+}
+form button{
+background-color: hsl(234, 29%, 20%);
+text-align: center;
+font-size: 14px;
+color: white;
+border: none;
+ padding: 1.25rem;
+
+}
+@media only screen and (max-width:720px){
+    main{
+  margin: 0;
+  
+}
+    .NewsLettter-Container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100vh;
+    padding: 0;   
+    margin: 0;
+    border-radius: 0;
+}
+.stay-updated-picture{
+    background-image: url("assets/images/illustration-sign-up-mobile.svg");
+     background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover; 
+    height: 100%;
+    width: auto;
+    border-radius: 0 0px 20px 20px;
+    
+   
+}
+.stay-updated{
+    width: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
+form input, form button{
+
+   width: 90%;
+}
+}
