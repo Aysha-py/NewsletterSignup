@@ -122,6 +122,18 @@ padding: 4rem 3rem
         font-size: 4rem;
         font-weight: 700;
 }
+.reference{
+    text-align:center ;
+    font-size: 10px;
+    color:  #fff;
+    margin-top: auto;
+    margin-top: 10px;
+  
+
+}
+.reference a{
+    color:  hsl(5, 85%, 63%);
+}
 
 
 @media only screen and (max-width:800px){
