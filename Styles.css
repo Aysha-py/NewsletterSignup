@@ -15,7 +15,7 @@ body{
     align-items: center;
     font-family: "Roboto", sans-serif;
     color:  hsl(234, 29%, 20%);
- 
+    overflow-y: hidden;
     
 
 }
@@ -134,7 +134,7 @@ padding: 4rem 3rem
 main{
     width: 100%;
     max-width: 1024px;
-    margin: 10px 0;
+    margin:0;
   
 }
 .NewsLettter-Container{
@@ -142,7 +142,6 @@ main{
     padding: 0;   
     margin: 0;
     border-radius: 0;
-    overflow-y:visible;
 }
 .NewsLettter-Container-content{
     display: flex;
@@ -153,8 +152,8 @@ main{
     padding: 0;   
     margin: 0;
     border-radius: 0;
-    overflow-y:visible;
-    
+    padding-bottom: 20px;
+
 }
 
 .stay-updated-picture{
