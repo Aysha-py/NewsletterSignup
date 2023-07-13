@@ -13,35 +13,84 @@
 <body>
     <main>
         <div class="NewsLettter-Container">
-            <div class="stay-updated">
-                <div class="stay-updated-title"><h1>Stay Updated!</h1></div>
-                
-                <div class="stay-updated-text"><p>Join 60,000+ Product Managers recieving monthly updates</p></div>         
-                <div class="stay-updated-list">
-                    <ul>
-                        <li><img src="assets/images/icon-list.svg"/>Product discovery and building what matters</li>
-                        <li><img src="assets/images/icon-list.svg"/>Measuring to ensure updates are a success</li>
-                        <li><img src="assets/images/icon-list.svg"/>And Much More</li>
-                    </ul>
-                </div>   
-                <div class="stay-updated-Email">
-                    <h5>Email Address</h5>
+            <div class="NewsLettter-Container-content">
+                <div class="stay-updated">
+                    <div class="stay-updated-title"><h1>Stay Updated!</h1></div>
+                    
+                    <div class="stay-updated-text"><p>Join 60,000+ Product Managers recieving monthly updates</p></div>         
+                    <div class="stay-updated-list">
+                        <ul>
+                            <li><img src="assets/images/icon-list.svg"/>Product discovery and building what matters</li>
+                            <li><img src="assets/images/icon-list.svg"/>Measuring to ensure updates are a success</li>
+                            <li><img src="assets/images/icon-list.svg"/>And Much More</li>
+                        </ul>
+                    </div>   
+                    <div class="stay-updated-Email">
+                        <div class="form-heading">
+                            <h5>Email Address</h5>
+                            <h5 class="warning"></h5>
+                        
+                        </div>
 
-                        <form>
-                           <input type="email" id="mail" name="mail" required placeholder="email@company.com"><br>
-
-                           <button type="submit">Subscribe to my monthly Newsletter</button>
+                        <form id="subscribeForm">
+                            <input type="email" id="email" name="email" required placeholder="email@company.com">
+                            <button type="submit" class="submit">Subscribe to my monthly Newsletter</button>
+                            
                         </form>
-                </div>
-            <div class="stay-updated-Submit"></div>      
-            </div>
+                    </div>
+                    <div class="stay-updated-Submit"></div> 
+                     
+                    
+               
+                </div>            
 
-            <div class="stay-updated-picture"></div>
+                <div class="stay-updated-picture"></div>
+            </div>
+            
             
 
         </div>
 
     
+  
+
+ 
+        <div class="success-message-container hidden">
+            <div class="success-feedback-content">
+                <div class="success-message-one">
+                    <div class="success-message">
+                        <img src="./assets/images/icon-success.svg"/>
+                    </div>
+                
+                    <div class="thank-you-message">
+                        <h1>Thanks for Subscribing!</h1>
+                    </div>      
+                
+
+                    <div class="success-message-feedback">
+                        
+                        <p>A confirmation email has been sent to
+                            <span id="usermail">ash@loremcompany.com.</span> Please open it and
+                            click the button inside to confirm your
+                            subscription
+                        </p>
+                    
+                    </div>
+                </div>
+                
+                <div class="stay-updated-Email feedback-button">
+                    
+                    <button type="submit" class="dismiss-btn">Dismiss Message</button>
+                </div>
+            
+            </div>
+        </div>
+       
     </main>
+
+    
+
+   
 </body>
+ <script src="Script.js"></script>
 </html>
