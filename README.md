@@ -6,12 +6,14 @@ I replicated this project to practice my Responsiveness & Javascript skills. Thi
 
 Features of the project.
 
-User can can add their email and submit the form.
-User can see a success message with their email after successfully submitting the form.
-User can see error feedback message if form is empty.
-User can see error feedback message if invalid email format is entered.
-Hover stats on buttons.
-Mobile-responsive.
+1. User can add their email and submit the form.
+2. User can see a success message in their email after successfully submitting the form.
+3. User can see an error feedback message if the form is empty.
+4. User can see an error feedback message if an invalid email format is entered.
+5. Hover stats on buttons.
+6. Mobile-responsive.
+
+
 Below is a Screenshot of the interface.
 
 ![image](https://github.com/Aysha-py/NewsletterSignup/assets/64032658/aeec9acb-9019-4db6-aa41-446f3d63232b)
