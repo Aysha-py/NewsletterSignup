@@ -31,30 +31,24 @@ button.addEventListener("click", function(event) {
         }
 
         
-    if(emailValue === "" ){
-     displayErrorMessage()
-    } else if (emailValue && !validateEmail(emailValue)){
-    displayErrorMessage()
-    }else{
-        
-        feedback.classList.remove("hidden")
-        Newsletter.classList.add("hidden")
-        usermail.innerText =email.value
-          warning.textContent = ""
-          email.value=""
-          email.style.backgroundColor = "white"
-        
-    }
+        if(emailValue === "" ){
+        displayErrorMessage()
+        } else if (emailValue && !validateEmail(emailValue)){
+        displayErrorMessage()
+        }else{
+            
+            feedback.classList.remove("hidden")
+            Newsletter.classList.add("hidden")
+            usermail.innerText =email.value
+              warning.textContent = ""
+              email.value=""
+              email.style.backgroundColor = "white"
+            
+        }
       
 });
 
 dismiss.addEventListener("click",function(){
      feedback.classList.add("hidden")
        Newsletter.classList.remove("hidden")
-})
-
-close.addEventListener("click", ()=>{
-  modal.style.display ="none"
- 
-
 })

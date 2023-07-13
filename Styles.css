@@ -16,8 +16,6 @@ body{
     font-family: "Roboto", sans-serif;
     color:  hsl(234, 29%, 20%);
     overflow-y: hidden;
-    
-
 }
 main{
     width:70%;
@@ -25,8 +23,6 @@ main{
     max-width: 1024px;
     margin: 40px auto;
 }
-
-
 .NewsLettter-Container{
     margin: auto;
    padding: 20px;
@@ -129,8 +125,6 @@ padding: 4rem 3rem
 
 
 @media only screen and (max-width:800px){
-
-
 main{
     width: 100%;
     max-width: 1024px;
