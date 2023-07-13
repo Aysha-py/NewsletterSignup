@@ -15,7 +15,7 @@ body{
     align-items: center;
     font-family: "Roboto", sans-serif;
     color:  hsl(234, 29%, 20%);
-    overflow-y:hidden;
+    /* overflow-y:hidden; */
     
 
 }
@@ -179,7 +179,7 @@ main{
     height: 100vh;
     border-radius: 0;
     padding: 0;
-    display: flex;
+    display: hidden;
     align-items: center;
     padding: 30px 0;
 }
